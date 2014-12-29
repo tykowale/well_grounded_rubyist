@@ -20,3 +20,13 @@ end
 c = C.new
 C.x
 c.m
+
+# OUTPUT
+# Top Level
+# self is main
+# Class definition block:
+# self is C
+# Class Method C.x:
+# self is C
+# Instance Method C#m:
+# self is #<C:0x007fa97210ff18>

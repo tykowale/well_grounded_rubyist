@@ -38,3 +38,18 @@ end
 
 d = B::M::N::D.new
 d.show_a
+
+# OUTPUT
+# Just inside class definition block. Here's self:
+# C
+# And here's the instance variable @v, belonging to C
+# "I am an instance variable at the top level of a class body."
+# Inside an instance method definition block. Here's self:
+# #<C:0x007fa8ac0aaf08>
+# And here's the instance variable @v, belonging to #<C:0x007fa8ac0aaf08>
+# nil
+# 2
+# 3
+# 4
+# 5
+# 1
